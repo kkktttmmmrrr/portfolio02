@@ -120,6 +120,7 @@ body {
 	width: 100%;
 	object-fit: cover;
 	padding-top: 43px;
+	height: 30rem;
 }
 .article {
 	display: flex;
@@ -234,7 +235,7 @@ body {
 @media (width > 575px) {
 	.hero .pc {
 		object-fit: cover;
-		height: 50vh;
+		height: 45rem;
 		width: 100%;
 		padding-top: 43px;
 	}
@@ -290,7 +291,7 @@ body {
 	}
 	.hero .pc {
 		object-fit: cover;
-		height: 45vh;
+		height: 45rem;
 		width: 100%;
 		padding-top: 8rem;
 	}
