@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<meta name="robots" content="noindex,follow">
+	<meta name="format-detection" content="telephone=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/ress.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollToPlugin.min.js"></script>
+	<script src="js/main.js" defer></script>
+
+</head>
+<body>
+<header id="top" class="header">
+	<div class="header-layout">
+		<div class="header-inner-layout">
+			<div class="header__logo"><a href="#top">LOGO</a></div>
+			<div id="js-hamburger" class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav class="glnav__menu">
+				<ul class="glnav__menu pc">
+					<li><a href="#top">Home</a></li>
+					<li><a href="#feature">Feature</a></li>
+					<li><a href="#introduction">Introduction</a></li>
+				</ul>
+				<ul id="js-glnav" class="glnav__menu sp">
+					<li><a href="#top">Home</a></li>
+					<li><a href="#feature">Feature</a></li>
+					<li><a href="#introduction">Introduction</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+
+<div class="hero">
+	<img class="pc" src="img/hero01-pc.jpg" alt="" width="1920" height="1156">
+	<img class="sp" src="img/hero01-sp.jpg" alt="" width="750" height="453">
+</div>
+
+<main class="main">
+	<div class="article__main-title-layout">
+		<div id="feature" class="article__inner-main-title-layout">
+			<h1 class="article__main-title">Feature</h1>
+		</div>
+	</div>
+
+	<article class="article">
+		<div>
+			<img class="article__img pc" src="img/img02-pc.jpg" width="480" height="320" alt="">
+			<img class="article__img sp" src="img/img02-sp.jpg" width="750" height="500" alt="">
+		</div>
+		<div class="article__column">
+			<div class="article__sub-title-layout">
+				<h2 class="article__sub-title">What is “Coding Basics”?</h2>
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+										sed do eiusmod tempor incididunt ut labore et dolore
+										magna aliqua. Ut enim ad minim veniam, quis nostrud
+										exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+			<p>commodo consequat. Duis aute irure dolor in
+										reprehenderit in voluptate velit esse cillum dolore eu.</p>
+			<div class="article__button">
+				<button type="button" class="button article__button--primary"><a href="#">Read More</a></button>
+			</div>
+		</div>
+	</article>
+
+	<div class="article__main-title-layout">
+		<div id="introduction" class="article__inner-main-title-layout">
+			<h1 class="article__main-title">Introduction</h1>
+		</div>
+	</div>
+
+	<article class="article">
+		<div>
+			<img class="article__img pc" src="img/img03-pc.jpg" width="480" height="321" alt="">
+			<img class="article__img sp" src="img/img03-sp.jpg" width="750" height="502" alt="">
+		</div>
+		<div class="article__column">
+			<div class="article__sub-title-layout">
+				<h2 class="article__sub-title">Coding Specialist</h2>
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+											sed do eiusmod tempor incididunt ut labore et dolore
+											magna aliqua. Ut enim ad minim veniam, quis nostrud
+											exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+			<p>commodo consequat. Duis aute irure dolor in
+											reprehenderit in voluptate velit esse cillum dolore eu.</p>
+			<div class="article__button">
+				<button type="button" class="button article__button--primary"><a href="#">Read More</a></button>
+			</div>
+		</div>
+	</article>
+
+</main>
+
+<div id="js-pagetop" class="pagetop">
+	<a href="#top"><img src="img/pagetop.svg"></a>
+</div>
+
+<footer class="footer">
+	<div class="footer-layout">
+		<div class="footer-inner-layout">
+			<p class="footer__logo">LOGO</p>
+			<p class="footer__copy">© 2023 LOGO All rights reserved.</p>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
