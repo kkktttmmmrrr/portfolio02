@@ -211,8 +211,7 @@ body {
 	bottom: 10rem;
 	right: 2rem;
 }
-
-@media (width < 576px) {
+@media screen and (max-width: 575px) {
 	img {
 		max-width: 100%;
 	}
@@ -226,16 +225,15 @@ body {
 		text-align: center;
 	}
 }
-
-@media (992px > width > 575px) {
+@media screen and (min-width:576px) and (max-width:991px) {
 	.article__img.sp {
 		display: none;
 	}
 }
-@media (width > 575px) {
+@media screen and (min-width: 576px) {
 	.hero .pc {
 		object-fit: cover;
-		height: 45rem;
+		height: 40rem;
 		width: 100%;
 		padding-top: 43px;
 	}
@@ -264,7 +262,7 @@ body {
 	}
 
 }
-@media (width >= 992px) {
+@media screen and (min-width: 992px) {
 	.header__logo {
 		padding: 2.4rem 0;
 		font-size: 2.8rem;
@@ -331,7 +329,7 @@ body {
 		bottom: 11rem;
 	}
 }
-@media (width >= 1000px) {
+@media screen and (min-width: 1000px) {
 	.header-inner-layout {
 		width: 1000px;
 	}
