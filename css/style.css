@@ -216,10 +216,10 @@ body {
 		max-width: 100%;
 	}
 	.hero .pc {
-		display: none;
+		display: none !important;
 	}
 	.article__img.pc {
-		display: none;
+		display: none !important;
 	}
 	.article__sub-title {
 		text-align: center;
