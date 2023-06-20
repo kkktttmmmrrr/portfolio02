@@ -234,7 +234,7 @@ body {
 @media (width > 575px) {
 	.hero .pc {
 		object-fit: cover;
-		height: 40vh;
+		height: 50vh;
 		width: 100%;
 		padding-top: 43px;
 	}
